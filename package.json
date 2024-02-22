@@ -1,0 +1,21 @@
+{
+  "name": "advantageonlineregression",
+  "version": "1.0.0",
+  "description": "Running test cases for project advantage online shopping",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "cucumber-js test -f json:output/results.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.3.1",
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.19"
+  },
+  "dependencies": {
+    "chai": "^5.1.0"
+  }
+}
