@@ -25,10 +25,6 @@ jobs:
         name: ci-report
         path: output/results.json
         retention-days: 30
-    - name: import-cloud.sh permission
-      if: always()
-      run: >
-        git update-index --chmod=+x ./import-cloud.sh
     - name: Submit results to Xray
       if: always()
       env:
