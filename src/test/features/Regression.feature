@@ -1,4 +1,4 @@
-@TEST_AS-1
+@TEST_AS-22
 Feature: User buys a speaker
 
 Scenario: User buys a speaker
