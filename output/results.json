@@ -1,0 +1,81 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-buys-a-speaker;user-buys-a-speaker",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User buys a speaker",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I log into AdvantageDemo",
+            "match": {
+              "location": "file:\\C:\\Advantageonline\\AdvantageOnlineRegression\\src\\test\\features\\steps\\Regressionsteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2474622500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I select the \"Speakers\" option",
+            "match": {
+              "location": "file:\\C:\\Advantageonline\\AdvantageOnlineRegression\\src\\test\\features\\steps\\Regressionsteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4001555000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I am able to checkout the selected speaker",
+            "match": {
+              "location": "file:\\C:\\Advantageonline\\AdvantageOnlineRegression\\src\\test\\features\\steps\\Regressionsteps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4495409500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 397299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TEST_AS-1",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-buys-a-speaker",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "User buys a speaker",
+    "tags": [
+      {
+        "name": "@TEST_AS-1",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\features\\Regression.feature"
+  }
+]
