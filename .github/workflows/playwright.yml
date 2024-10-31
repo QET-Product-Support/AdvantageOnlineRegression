@@ -4,17 +4,7 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
-  workflow_dispatch:
-    inputs:
-      browser:
-        description: 'Select the browser to run the tests'
-        required: true
-        default: 'chromium'
-        type: choice
-        options:
-          - chromium
-          - firefox
-          - webkit
+  
 jobs:
   test:
     timeout-minutes: 60
