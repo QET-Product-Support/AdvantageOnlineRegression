@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "cucumber-js test -f json:output/results.json"
+    "test": "cucumber-js --format junit:output/test-results.xml"
   },
   "keywords": [],
   "author": "",
@@ -13,9 +13,13 @@
   "devDependencies": {
     "@cucumber/cucumber": "^10.3.1",
     "@playwright/test": "^1.41.2",
-    "@types/node": "^20.11.19"
+    "@types/node": "^20.11.19",
+    "cucumber": "^6.0.7",
+    "junit": "^0.5.1"
   },
   "dependencies": {
-    "chai": "^5.1.0"
+    "advantageonlineregression": "file:",
+    "chai": "^5.1.0",
+    "libxmljs": "^1.0.11"
   }
 }

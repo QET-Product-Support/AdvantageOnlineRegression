@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<testsuite failures="0" skipped="0" name="cucumber-js" time="13.656458999000002" tests="1">
+  <testcase classname="User buys a speaker" name="User buys a speaker" time="13.656458999000002">
+    <system-out><![CDATA[Given I log into AdvantageDemo............................................passed
+And I select the "Speakers" option........................................passed
+Then I am able to checkout the selected speaker...........................passed]]></system-out>
+  </testcase>
+</testsuite>
