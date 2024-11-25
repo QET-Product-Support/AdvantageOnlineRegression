@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <testsuite failures="0" skipped="0" name="cucumber-js" time="16.097389497" tests="1">
   <testcase classname="User buys a speaker" name="User buys a speaker" time="16.097389497">
     <system-out><![CDATA[Given I log into AdvantageDemo............................................passed
