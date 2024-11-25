@@ -28,8 +28,12 @@ fs.readFile(xmlFilePath, 'utf-8', (err, data) => {
         testcase.appendChild(steps);
     });
 
-    // Serialize and save the updated XML
-    fs.writeFile(updatedFilePath, dom.serialize(), (err) => {
+    // Serialize and prepend the XML declaration
+    const xmlDeclaration = '<?xml version="1.0"?>\n';
+    const updatedXML = xmlDeclaration + dom.serialize();
+
+    // Save the updated XML
+    fs.writeFile(updatedFilePath, updatedXML, (err) => {
         if (err) throw err;
         console.log(`Updated JUnit XML saved to ${updatedFilePath}`);
     });
