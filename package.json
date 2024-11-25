@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "cucumber-js test -f json:output/results.json"
+    "test": "cucumber-js test -f junit:output/results.xml"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
     "@types/node": "^20.11.19"
   },
   "dependencies": {
+    "advantageonlineregression": "file:",
     "chai": "^5.1.0"
   }
 }
